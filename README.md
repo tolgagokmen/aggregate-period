@@ -19,7 +19,7 @@ Start Project
 
 
 
-Call service with curl
+Call service with curl (Open new terminal)
 --------
 
 curl -X POST "http://localhost:8090/aggregate" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"period\": 60}"
