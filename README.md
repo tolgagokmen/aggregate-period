@@ -9,12 +9,13 @@ This is a Java project for a very simple REST service, which is on an aggregate 
 
 Start Project 
 --------
-
-  Enter the project folder(cd aggregate-period) using the terminal and then run the following commands in the given order.                 
-
-1)mvn clean install    
-2)docker build -t aggregate-app .           
-3)docker run -p 8090:8080 aggregate-app
+  Clone project & Enter the project folder using the terminal run the following commands in the given order.       
+  
+1) git clone https://gitlab.com/tolgagokmen/aggregate-period.git
+2) cd aggregate-period          
+3) mvn clean install    
+4) docker build -t aggregate-app .           
+5) docker run -p 8090:8080 aggregate-app
 
 
 
